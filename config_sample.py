@@ -8,12 +8,12 @@ TG_PROXY = {}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
 AUTHORIZED_CHATS = ""
-SUDO_USERS = ""
-DATABASE_URL = ""
+SUDO_USERS = "5968806660"
+DATABASE_URL = "mongodb+srv://antonadel03_db_user:Anton492003.@mltbnew.qlhgdue.mongodb.net/?appName=Mltbnew"
 DATABASE_NAME = "mltb"
 STATUS_LIMIT = 4
-DEFAULT_UPLOAD = "rc"
-STATUS_UPDATE_INTERVAL = 15
+DEFAULT_UPLOAD = "gd"
+STATUS_UPDATE_INTERVAL = 5
 FILELION_API = ""
 STREAMWISH_API = ""
 ALLDEBRID_API_KEY = ""
@@ -30,10 +30,10 @@ FFMPEG_CMDS = {"merge": ["-f concat -safe 0 -i mltb.txt -c copy mltb.mp4 -del"]}
 UPLOAD_PATHS = {}
 FILES_LINKS = False
 # GDrive Tools
-GDRIVE_ID = ""
+GDRIVE_ID = "1IaLin3lwD34ER5qZo6HjoCduy9AYkxQI"
 IS_TEAM_DRIVE = False
 STOP_DUPLICATE = False
-INDEX_URL = ""
+INDEX_URL = "https://cold-tree-8a56.seriesflixx.workers.dev/0:/"
 # Rclone
 RCLONE_PATH = ""
 RCLONE_FLAGS = ""
@@ -69,7 +69,7 @@ USENET_SERVERS = [
 HYDRA_IP = ""
 HYDRA_API_KEY = ""
 # Update
-UPSTREAM_REPO = ""
+UPSTREAM_REPO = "https://github.com/Antonadel03/Mltb-public-"
 UPSTREAM_BRANCH = "master"
 # Leech
 LEECH_SPLIT_SIZE = 0
